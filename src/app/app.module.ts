@@ -5,6 +5,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgxGraphModule } from '@swimlane/ngx-graph';
 import { AppComponent } from './app.component';
 import { MaterialModule } from './material.module';
+import { SourceNodeComponent } from './source-node/source-node.component';
 
 @NgModule({
   imports: [
@@ -15,7 +16,7 @@ import { MaterialModule } from './material.module';
     MaterialModule,
     NgxGraphModule,
   ],
-  declarations: [AppComponent],
+  declarations: [AppComponent, SourceNodeComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
